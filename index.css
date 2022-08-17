@@ -11,7 +11,7 @@ html{
 .image-container{
     display: flex;
     height: 400px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     position: relative;
 }
 
