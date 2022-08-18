@@ -1,5 +1,5 @@
 # Iamge_Slider
-this Image slider is built using html , css and js where image is slide from left to right on click of the button
+this Image slider is built using html , css and js where image is slide from left to right on click of the button and it is fully responsive
 <hr>
 <hr>
 
