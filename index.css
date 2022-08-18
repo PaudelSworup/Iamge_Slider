@@ -52,3 +52,60 @@ html{
 .image-container::-webkit-scrollbar{
     display: none;
 }
+
+@media(max-width:945px){
+    .image-container{
+        display: flex;
+        height: 400px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .left{
+        position: absolute;
+        font-size: 20px;
+        right:96%;
+        top:50%;
+        position: sticky;
+    }
+    
+    .right{
+        position: absolute;
+        font-size: 20px;
+        position: fixed;
+        left: 96%;
+        top: 27%;
+    }
+}
+
+@media(max-width:505px){
+    .image-container{
+        display: flex;
+        height: 300px;
+        overflow-x: hidden;
+        position: relative;
+    }
+    .image-container > button{
+        background-color: dodgerblue;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        height: 50px;
+    }
+
+    .left{
+        position: absolute;
+        font-size: 20px;
+        right:90%;
+        top:50%;
+        position: sticky;
+    }
+    
+    .right{
+        position: absolute;
+        font-size: 20px;
+        position: fixed;
+        left: 90%;
+        top: 21.5%;
+    }
+}
